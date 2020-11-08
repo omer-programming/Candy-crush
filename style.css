@@ -1,0 +1,109 @@
+/* styling for grid*/
+.grid {
+  height: 560px;
+  width: 560px;
+  display: flex; /* use of flex box */
+  flex-wrap: wrap;
+  margin: 30px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 20px;
+
+}
+
+/* styling for grid div*/
+.grid div {
+  height: 70px;
+  width: 70px;
+}
+
+/* styling for body*/
+body {
+  background-color:#00884a;
+  padding-bottom: 35px;
+  min-width: 550px;
+  background-image: url(images/background-image.jpg); /* setting background image of page */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+
+.buttonsetting{
+    display: flex; /* use of flex box */
+    flex-wrap: wrap;
+    justify-content: center; /* to center the buttons (used for columns)*/
+}
+
+/* styling for start and reset button*/
+#start-button,  #reset-button{
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    margin-left: 10px;
+    font-family: monospace;
+}
+
+/* styling for h3 tag */
+h3 {
+  display: flex; /* use of flex box */
+  width: 35%;
+  justify-content: center; /* to center the h3 (used for columns)*/
+  margin: auto;
+  padding: 20px;
+  font-family: cursive;
+  font-size: 55px;
+  font-weight: 300;
+  color: black;
+  background-color: white;
+}
+
+/* styling for h1 tag*/
+h1{
+    display: flex; /* use of flex box */
+    justify-content: center; /* to center the h1 (used for columns)*/
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    font-family: cursive;
+    font-size: 90px;
+}
+
+/* styling for score */
+#score {
+  font-size: 55px;
+}
+
+/* styling for score-board */
+.Score-Board {
+  display: flex; /* use of flex box */
+  flex-wrap: wrap;
+  align-items: center; /* to center the scoreboard vertically (or we can say its for row) */
+  width: 25%;
+}
+
+/* styling for gameboard */
+.gameboard {
+  display: flex; /* use of flex box */
+  flex-wrap: wrap;
+}
+
+/* styling for footer */
+.footer {
+  width: 35%;
+  margin: auto;
+  padding-top: 70px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  color: black;
+}
+
+a {
+  color: red;
+}
+
+a:visited {
+  color: blue; 
+}
