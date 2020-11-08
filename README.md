@@ -7,17 +7,17 @@ This walkthrough is great as it will show you how to drag and drop elements in J
 
 In addition to this, we will also be practising using inbuilt methods such as:
 
-addEventListener()
-setAttribute()
-setInterval()
-some()
-every()
-forEach()
-includes()
-contains()
-add()
-remove()
-createElement()
-appendChild()
-push()
-continue
+* addEventListener()
+* setAttribute()
+* setInterval()
+* some()
+* every()
+* forEach()
+* includes()
+* contains()
+* add()
+* remove()
+* createElement()
+* appendChild()
+* push()
+* continue
